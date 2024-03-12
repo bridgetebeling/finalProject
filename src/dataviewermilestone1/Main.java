@@ -8,6 +8,7 @@ public class Main {
     	String data = "data/GlobalLandTemperaturesByState.csv";
     	//String data = "data/sample.csv";
 //        new DataOrganizer(data);
+    	//sdfdsf
         NewDataOrganizer loadData = new NewDataOrganizer(data);
         PlotClass plot = new PlotClass(loadData);
     }
